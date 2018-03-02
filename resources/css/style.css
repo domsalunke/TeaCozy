@@ -6,6 +6,8 @@ body {
   opacity: 0.9;
 }
 
+/* Header */
+
 a {
   color: seashell;
   text-decoration: underline;
@@ -25,7 +27,7 @@ header {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding-left: 30px;
+  padding-left: 10px;
 }
 
 .logo img {
@@ -40,8 +42,10 @@ nav {
 
 nav span {
   display: inline-block;
-  padding: 20px 10px;
+  padding-right: 20px;
 }
+
+/* Our Mission */
 
 .maincontent {
   padding-top 69px;
@@ -72,4 +76,24 @@ h2, h4 {
   display: block;
   margin: 0px;
   padding: 10px;
+}
+
+/*Tea of the Month*/
+
+.tea {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.item img {
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.item span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
 }
